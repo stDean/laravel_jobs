@@ -1,18 +1,18 @@
-<div class="bg-white/5 p-4 rounded-xl flex flex-col text-center">
+<x-panel class="flex flex-col text-center">
   <div class="self-start text-sm">GovExc</div>
 
-  <div class="py-8 font-bold">
-    <h3 class="text-xl">Full Stack Laravel Developer</h3>
-    <p>Full Time - From $60,000</p>
+  <div class="py-8">
+    <h3 class="text-xl font-bold group-hover:text-blue-800 transisiton duration-300">Full Stack Laravel Developer</h3>
+    <p class="text-sm mt-4">Full Time - From $60,000</p>
   </div>
 
   <div class="flex justify-between items-center mt-auto">
     <div>
-      <x-job-tag>Tag</x-job-tag>
-      <x-job-tag>Tag</x-job-tag>
-      <x-job-tag>Tag</x-job-tag>
+      <x-job-tag size="small">Backend</x-job-tag>
+      <x-job-tag size="small">Mobile</x-job-tag>
+      <x-job-tag size="small">Senior</x-job-tag>
     </div>
 
-    <img src="http://placeholder.com/42/42" class="rounded-xl" />
+    <x-employer-logo :width="42" />
   </div>
-</div>
+</x-panel>
